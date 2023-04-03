@@ -1,0 +1,57 @@
+body{
+    background: url(./bcg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-weight: bold;
+    color: #4b4165;
+}
+
+
+/* root */
+.tx-p{font-family: 'Shantell Sans', cursive;}
+.tx-s{font-family: 'Inter', sans-serif;}
+/* root */
+
+
+/* glassmorphism-card */
+.card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-custom{
+    background-color: #4871cc;
+    color: white;
+    transition: 0.3s all ease-in-out;
+    height: 44px;
+    min-width: 64px;
+    padding: 0 16px 0 16px;
+}
+
+.btn-custom:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-second-custom{
+    background-color: white;
+    color: black;
+    transition: 0.3s all ease-in-out;
+    height: 44px;
+    min-width: 64px;
+    padding: 0 16px 0 16px;
+}
+
+.btn-second-custom:hover{
+    background-color: #4871cc;
+    color: white;
+}
+/* glassmorphism-card */
